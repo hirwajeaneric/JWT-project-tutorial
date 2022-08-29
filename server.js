@@ -15,4 +15,8 @@ app.get('/posts', (req,res) => {
     res.json(posts);
 })
 
+app.get('/login', (req, res) => {
+    
+})
+
 app.listen(3000)
